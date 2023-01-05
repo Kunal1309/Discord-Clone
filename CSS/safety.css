@@ -1,0 +1,184 @@
+header{
+    height: 100vh;
+    background-color: #5865F2;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+.left-section{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 50%;
+}
+.left-section h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 1;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.8);
+}
+.right-section img{
+    max-width: 100%;
+}
+.sec-para{
+    margin: 2rem 0;
+    padding: .6rem;
+}
+.sec-para p{
+    text-align: left;
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec-para:hover{
+    cursor: pointer;
+    background-color: #6571F3;
+    border-radius: 10px;
+    transition: .5s;
+}
+.page-two{
+    padding: 5rem 24rem;
+}
+.safety{
+    background-color: #F6F6F6;
+    height: max-content;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.safety h1{
+    color: #5865F2;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0;
+}
+.safety-left{
+    max-width: 30%;
+}
+.safety-left img{
+    max-width: 100%;
+}
+.safety-left p{
+    margin: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.view-all{
+    padding: 1rem 2rem;
+    background-color: #5865F2;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+}
+.view-all:hover{
+    background-color:#6571F3;
+    transition: linear;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 2px grey;
+}
+.safety-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    max-width: 45%;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card h3{
+    color: #5865F2;
+    font-size: 1rem;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+.card h2{
+    color: black;
+    font-family: sans-serif;
+}
+.card h2:hover{
+    cursor: pointer;
+    color: #5865F2;
+}
+.card1,.card3{
+    margin-left: 3rem;
+}
+.card2, .card4{
+    margin-left: -.5rem;
+}
+.moderate{
+    margin-top: 3rem;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .page-two{
+        padding: 5rem;
+    }
+    .header-content{
+        padding: 0 5rem;
+    }
+}
+
+@media(max-width: 1190px){
+    .page-two{
+        padding: 5rem 1rem;
+    }
+    .header-content{
+        padding: 1rem;
+    }
+    header{
+        padding: 1rem;
+    }
+    nav{
+        padding: 0;
+        max-width: 100%;
+    }
+    .header-content{
+        display: block;
+        text-align: center;
+    }
+    .left-section{
+        max-width: 100%;
+    }
+    .right-section img{
+        display: none;
+    }
+    .left-section h1{
+        text-align: center;
+    }
+    footer{
+        padding: 1rem;
+    }
+}
+@media (max-width:700px){
+    .safety{
+        display: block;
+    }
+    .safety-left{
+        max-width: 100%;
+        text-align: center;
+    }
+    .safety-right{
+        display: block;
+        max-width: 100%;
+        text-align: center;
+    }
+    .card{
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}

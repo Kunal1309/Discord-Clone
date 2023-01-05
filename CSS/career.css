@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    min-width: 100vw;
+}
+.careerWelcome{
+    background-color: rgb(88, 102, 242);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 100vw;
+    /* border: 2px solid red; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.careerWelcomeParaSection{
+    
+    min-width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.careerWelcomeHeading{
+    font-size: 3.7rem;
+    font-weight: 900;
+    margin-bottom: 0%;
+}
+.careerWelcomePara{
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+
+.careerWelcomeImages{
+    position: relative;
+    height: 130vh;
+}
+.careerWelcomeImagesOne{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    height: 30vh;
+    width: 25vw;
+    border-radius: 15px;
+}
+.careerWelcomeImagesTwo{
+    position: absolute;
+    right: 15%;
+    top: 0%;
+    height: 27vh;
+    width: 20vw;
+    border-radius: 15px;
+}
+.careerWelcomeImagesThree{
+    position: absolute;
+     left: 26%;
+     top: 10%;
+     height: 87vh;
+    width: 45vw;
+    border-radius: 15px;
+    z-index: 1;
+}
+.careerWelcomeImagesFour{
+    position: absolute;
+    left: 17%;
+    bottom: 14%;
+    height: 17vh;
+    width: 14vw;
+    border-radius: 15px;
+}
+.careerWelcomeImagesFive{
+    position: absolute;
+    right: 10%;
+    bottom: 7%;
+    height: 28vh;
+    width: 24vw;
+    border-radius: 15px;
+}
+
+
+.careerSectionOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10% 2% 10%;
+}
+.careerSectionOneHeading{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.careerSectionOnePara{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.careerSectionOneSubSec{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.careerSectionOneImg{
+    width: 38vw;
+    height: 55vh;
+    border-radius: 15px;
+    /* margin: 0%; */
+}
+.careerSectionTwoSubSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.careerSectionOneSubSecHead{
+    font-size: 2rem;
+    font-weight: 900;
+    width: 80%;
+    margin-bottom: 0%;
+}
+.careerSectionOneSubSecPara{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.careerSectionThreeSubSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+/* figure{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+} */
+.careerDesignImg{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+}
+
+
+.careerSectionTwo{
+    border: 2px solid red;
+    background-color: rgb(246, 246, 246);
+    padding-left: 10%;
+    min-width: 100%;
+}
+.careerSectionTwoHead{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.careerSectionTwoFilter{
+    font-size: 1.8rem;
+    font-weight: 900;
+    padding-bottom: 1%;
+}
+.featuresBtn{
+    font-size: 1.2rem;
+    padding: 1.5%;
+    border: none;
+    border-radius: 50px;
+    margin: 1%;
+}
+.featuresBtn:hover{
+    color: blue;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.careerSectionDept{
+    padding: 5% 5% 4% 2%;
+}
+.careerSectionDeptHead01{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.careerSectionDeptHead{
+    font-size: 1.5rem;
+    font-weight: 600; 
+    margin-bottom: 12%;
+    margin-top: 13%;
+}
+.careerSectionDeptDiscordImg{
+    width: 2rem;
+    height: 2rem;
+}
+.careerSectionDeptSubSec{
+    padding: 2%;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    width: 23vw;
+    margin: 2% 1% 1% 0%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    /* border: 2px solid red;F */
+}
+.careerSectionDeptSubSec:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+.careerSectionDeptLocation{
+    display: flex;
+    justify-content: space-between;
+}
+.careerSectionDeptMainSection{
+    
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.careerSectionThree{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+}
+.careerSectionThreeHead{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.careerSectionThreeSubSecOne{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.careerSectionThreeSubSecOneSection{
+    width: 50%;
+    margin: 2%;
+}
+.careerSectionThreeSubSecOneHead{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+.careerSectionThreeSubSecOnePara{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.careerSectionThreeSubSecTwo{
+    display: flex;
+    width: 70%;
+    margin-left: 8%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 15px;
+    margin-bottom: 7%;
+}
+.careerSectionThreeSubSecTwoImg{
+    width: 16vw;
+    margin-top: 40%;
+}
+.careerSectionThreeSubSecTwoPara{
+    margin: 4%;
+}
+
+
+
+.careerSectionFour{
+    background-color: rgb(88, 102, 242);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7% 10% 8% 10%;
+}
+.careerSectionFourMainHeading{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+.careerExperiencedLife{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.careerSectionFourSubSec{
+     width: 25%;
+     margin: 4%;
+     line-height: 2rem;
+}
+.careerSectionFourHead{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+
+
+.careerSectionFive{
+    background-color: rgb(45, 47, 51);
+    padding-top: 8%;
+    padding-bottom: 7%;
+}
+.careerSectionFivePara{
+    color: white;
+    margin: 0% 10% 4% 8%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.SlidingImgBottomImg{
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+}
+.SlidingImgBottom{
+    width: 45vw;
+    height: 45vh;
+    margin-left: 5%;
+    border: 10px solid rgb(45, 47, 51);
+    border-radius: 30px;
+    scrollbar-color: rgb(45, 47, 51);;
+}
+.footer-menu{
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+@media screen and (max-width: 500px){
+.careerSectionOne, .careerSectionOneSubSec, .careerSectionTwoSubSec{
+    display: flex;
+    flex-direction: column;
+}
+.careerSectionTwoBtn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.careerSectionOneImg{
+    width: 80vw;
+}
+.careerSectionDeptSubSec{
+    width: 35vw;   
+}
+.careerSectionDeptHead{
+    font-size: 1.2rem;
+}
+.careerSectionDeptPara{
+    font-size: 0.8rem;
+}
+.careerSectionThreeHead{
+    font-size: 1.5rem;
+    width: 80%;
+}
+.careerSectionThreeSubSecOne{
+    display: flex;
+    flex-direction: column;
+}
+.careerSectionThreeSubSecOneSection{
+    width: 95%;
+}
+.careerSectionThreeSubSecTwo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+}
+.careerSectionFourSubSec{
+    width: 40%;
+}
+.careerWelcomeImages{
+  position: inherit;
+}
+.careerWelcomeImagesOne{
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    height: 30vh;
+    width: 45vw;
+    border-radius: 15px;
+}
+.careerWelcomeImagesTwo{
+    position: absolute;
+    right: 15%;
+    top: 99%;
+    height: 27vh;
+    width: 30vw;
+    border-radius: 15px;
+}
+.careerWelcomeImagesThree{
+    position: absolute;
+     left: 10%;
+     top: 45%;
+     height: 53vh;
+    width: 85vw;
+    border-radius: 15px;
+    z-index: 1;
+}
+.careerWelcomeImagesFour{
+    position: absolute;
+    left: 17%;
+    top: 135%;
+    height: 17vh;
+    width: 24vw;
+    border-radius: 15px;
+}
+.careerWelcomeImagesFive{
+    position: absolute;
+    right: 10%;
+    top: 137%;
+    height: 28vh;
+    width: 40vw;
+    border-radius: 15px;
+}
+.footer-section{
+    flex-wrap: wrap;
+}
+}   

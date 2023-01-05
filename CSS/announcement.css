@@ -1,0 +1,147 @@
+
+.announce1{
+ /* border: 2px solid red; */
+ display: flex;
+ gap: 1rem;
+}
+.announce_title{
+    display: flex;
+    gap: 0.7rem;
+    color: grey;
+}
+.announce_name{
+    color: orange;
+}
+.person{
+    width: 3rem;
+    height: 3rem;
+    /* background-color: #202225; */
+}
+.announce_para_content{
+    color: white;
+    line-height: 2rem;
+}
+.announce_page_barrirer{
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.announce_content{
+    padding: 1rem;
+    max-height:84vh;
+    overflow-y: scroll;
+}
+.serverNameHover{
+    /* display: none; */
+    color:grey;
+    /* position: relative; */
+    /* left: 3.8rem; */
+    /* bottom: 2rem; */
+    /* border: 1px solid lightgrey; */
+    /* padding: 0.8rem; */
+    /* background-color: white; */
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-left-radius: 50%; */
+
+}
+.mid-area{
+    padding: 1rem 2rem;
+}
+nav{
+    padding: .13rem 1rem;
+}
+
+@media (min-width: 1000px) and (max-width: 1450px){
+    .mid-area{
+        padding: 1rem;
+    }
+    .input-area{
+        right: -14rem;
+    }
+}
+
+@media (min-width:750px) and (max-width: 1000px){
+  .right-side{
+    display: none;
+  }
+  .left-side{
+    max-width: 100%;
+  }
+  .fa-bars{
+    display: block;
+    color: white;
+    font-size: 30px;
+    padding: .5rem;
+  }
+  .fa-close{
+    color: white;
+    font-size: 30px;
+    padding: .5rem;
+    display: none;
+  }
+  .input-area{
+    width: 100vw;
+    right: 0;
+    bottom: 3.5rem;
+    left: -1rem;
+  }
+  .input-area input{
+    min-width: 95%;
+  }
+  .side-menu{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+  .channel-sidebar{
+    display: none;
+  }
+}
+
+@media (max-width: 749px){
+  .right-side{
+    display: none;
+  }
+  .left-side{
+    max-width: 100%;
+  }
+  aside{
+    display: none;
+  }
+  .fa-bars{
+    color: white;
+    display: block;
+    font-size: 30px;
+    padding: .5rem;
+  }
+  .fa-close{
+    color: white;
+    font-size: 30px;
+    display: none;
+    padding: .5rem;
+  }
+  .side-menu{
+    display: none;
+  }
+  .mid-area{
+    padding: 1rem;
+    height: 100vh;
+  }
+  .channel-sidebar{
+    display: none;
+  }
+  .home-msg .para {
+    font-size: 1rem;
+  }
+   .input-area{
+    width: 100vw;
+    right: 0;
+    bottom: 3.5rem;
+    left: -1rem;
+  }
+  .input-area input{
+    min-width: 95%;
+  }
+}
