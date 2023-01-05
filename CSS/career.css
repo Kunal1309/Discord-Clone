@@ -385,7 +385,7 @@ a {
 .careerWelcomeImagesOne{
     position: absolute;
     left: 5%;
-    top: 100%;
+    top: 130%;
     height: 30vh;
     width: 45vw;
     border-radius: 15px;
@@ -393,7 +393,7 @@ a {
 .careerWelcomeImagesTwo{
     position: absolute;
     right: 15%;
-    top: 99%;
+    top: 129%;
     height: 27vh;
     width: 30vw;
     border-radius: 15px;
@@ -401,7 +401,7 @@ a {
 .careerWelcomeImagesThree{
     position: absolute;
      left: 10%;
-     top: 45%;
+     top: 75%;
      height: 53vh;
     width: 85vw;
     border-radius: 15px;
@@ -410,7 +410,7 @@ a {
 .careerWelcomeImagesFour{
     position: absolute;
     left: 17%;
-    top: 135%;
+    top: 165%;
     height: 17vh;
     width: 24vw;
     border-radius: 15px;
@@ -418,7 +418,7 @@ a {
 .careerWelcomeImagesFive{
     position: absolute;
     right: 10%;
-    top: 137%;
+    top: 167%;
     height: 28vh;
     width: 40vw;
     border-radius: 15px;
