@@ -523,6 +523,9 @@ margin-top: 5%;
         background-image: linear-gradient( rgb(96, 116, 234),rgb(113, 117, 233), rgb(205, 119, 234));
         width: 100vw;
     }
+    nav{
+        background-color: rgb(95, 115, 234);
+    }
 }
 
 @media screen and (max-width: 990px){
@@ -573,6 +576,9 @@ margin-top: 5%;
         width: 60%;
     }
     .nav-flex{
+        background-color: rgb(95, 115, 234);
+    }
+    nav{
         background-color: rgb(95, 115, 234);
     }
 }
