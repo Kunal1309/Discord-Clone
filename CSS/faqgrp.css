@@ -540,4 +540,7 @@ margin-bottom: 3vh;
   .faqWelcomeSec{
     max-height: 80vh;
   }
+    .faqThorFeaturedQue, .faqThorQuestionare{
+       width: 80vw; 
+    }
 }
